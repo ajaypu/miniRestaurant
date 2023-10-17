@@ -34,28 +34,29 @@ select {
 #submit:hover {
   background-color: cadetblue;
 }
-#table-1-list {
-  list-style: none;
-  width: 450px;
-  padding: 10px;
-  margin-top: 5px;
-  background-color: antiquewhite;
-  height: 30px;
-}
-#table-2-list {
-  list-style: none;
-  width: 450px;
-  padding: 10px;
-  background-color: antiquewhite;
-  height: 30px;
-}
+#table-1-list,
+#table-2-list,
 #table-3-list {
-  list-style: none;
   width: 450px;
   padding: 10px;
-  background-color: antiquewhite;
-  height: 30px;
+  margin-bottom: 2px;
+  height: auto;
 }
+#table-1-list li,
+#table-2-list li,
+#table-3-list li {
+  border-radius: 10px;
+  font-size: 26px;
+  list-style: none;
+  margin-left: 10px;
+  margin-bottom: 3px;
+  padding-left: 10px;
+  background-color: antiquewhite;
+}
+
 .del-btn {
   float: right;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
