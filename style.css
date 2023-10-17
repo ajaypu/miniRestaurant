@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#form-div {
+  width: 650px;
+  background-color: rgb(213, 227, 191);
+  height: 250px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.form {
+  width: 550px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+label {
+  font-size: 25px;
+}
+input {
+  display: block;
+  width: 250px;
+  border-radius: 10px;
+  height: 30px;
+}
+select {
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+}
+#submit {
+  margin-top: 10px;
+}
+#submit:hover {
+  background-color: cadetblue;
+}
+#table-1-list {
+  list-style: none;
+  width: 450px;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: antiquewhite;
+  height: 30px;
+}
+#table-2-list {
+  list-style: none;
+  width: 450px;
+  padding: 10px;
+  background-color: antiquewhite;
+  height: 30px;
+}
+#table-3-list {
+  list-style: none;
+  width: 450px;
+  padding: 10px;
+  background-color: antiquewhite;
+  height: 30px;
+}
+.del-btn {
+  float: right;
+}
